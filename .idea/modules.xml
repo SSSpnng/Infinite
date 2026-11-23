@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Infinite.iml" filepath="$PROJECT_DIR$/.idea/Infinite.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/archcanvas-geometry-worker.iml" filepath="$PROJECT_DIR$/.idea/archcanvas-geometry-worker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/archcanvas-geometry-worker@1.iml" filepath="$PROJECT_DIR$/.idea/archcanvas-geometry-worker@1.iml" />
     </modules>
   </component>
 </project>
