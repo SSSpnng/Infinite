@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Build outputs
+dist/
+out/
+release/
+*.tsbuildinfo
+
+# Local project test outputs & runtime secrets
+.archcanvas-local/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+.env
+.env.local
+*.key
+secrets.json
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/

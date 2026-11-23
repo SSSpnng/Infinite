@@ -1,0 +1,22 @@
+{
+  "name": "archcanvas-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "构境画布 / ArchCanvas — 建筑设计无限画布桌面应用",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=@archcanvas/contracts && npm run build --workspace=@archcanvas/canvas && npm run build --workspace=@archcanvas/viewer && npm run build --workspace=@archcanvas/providers && npm run build --workspace=@archcanvas/desktop",
+    "test": "npm run test --workspace=@archcanvas/contracts && npm run test --workspace=@archcanvas/canvas && npm run test --workspace=@archcanvas/viewer && npm run test --workspace=@archcanvas/providers && npm run test --workspace=@archcanvas/desktop",
+    "dev": "npm run dev --workspace=@archcanvas/desktop",
+    "start": "npm run start --workspace=@archcanvas/desktop",
+    "diagnose": "node scripts/diagnose.mjs",
+    "package:portable": "node scripts/package-portable.mjs",
+    "typecheck": "npm run typecheck --workspace=@archcanvas/contracts && npm run typecheck --workspace=@archcanvas/canvas && npm run typecheck --workspace=@archcanvas/viewer && npm run typecheck --workspace=@archcanvas/providers && npm run typecheck --workspace=@archcanvas/desktop"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
